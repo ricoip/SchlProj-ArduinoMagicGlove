@@ -54,11 +54,9 @@ void loop() {
 }
 
 int servoRotateA(int input) {
-  int angle = map(input, 350, 150, 0, 120);
-  return angle;
+  return map(input, 350, 150, 0, 180);
 }
 
 int servoRotateB(int input) {
-  int angle = map(input, 150, 350, 0, 120);
-  return angle;
+  return map(input, 150, 350, 0, 180);
 }
